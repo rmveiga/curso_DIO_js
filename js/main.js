@@ -1,3 +1,27 @@
+/* AULA 4
+function soma(n1, n2){
+    return n1 + n2
+}
+
+function setReplace(nome1, nome2){
+    var frase = "Vai Japão"
+    return frase.replace(nome1, nome2)
+}
+
+function validaIdade(idade){
+    if (idade >= 18){
+        return true
+    }else{
+        return false
+    }
+}
+
+console.log(soma(5, 10))
+console.log(setReplace("Japão", "Brasil"))
+idade = prompt("Informe a sua idade")
+console.log(validaIdade(idade))
+*/
+
 /* AULA 3
 var idade = prompt("Informe a sua idade")
 if (idade >= 18){
