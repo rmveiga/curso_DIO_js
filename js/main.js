@@ -1,3 +1,24 @@
+function clicar(){
+    document.getElementById("thanks").innerHTML = "<i>Obrigado!!</i>"
+}
+
+function redirecionar(){
+    window.open("https://financast.com.br")             // Abrenume nova aba
+    //window.location.href = "https://financast.com.br"   // Abre na mesma aba
+}
+
+function trocarTexto(elemento){
+    elemento.innerHTML = "Tudo bem?"
+}
+
+function voltarTexto(elemento){
+    elemento.innerHTML = "Olá!"
+}
+
+function valorOpcao(elemento){
+    console.log(elemento.value)
+}
+
 /* AULA 4
 function soma(n1, n2){
     return n1 + n2
